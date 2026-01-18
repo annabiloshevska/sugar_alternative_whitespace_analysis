@@ -1,0 +1,53 @@
+# Large data files
+data/raw/
+*.zip
+*.gz
+usda_branded.zip
+usda_data/
+*.csv
+*.tsv
+
+# Keep small processed samples
+!data/processed/sample_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Environment variables
+.env
