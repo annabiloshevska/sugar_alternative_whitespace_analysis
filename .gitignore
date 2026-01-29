@@ -50,4 +50,7 @@ desktop.ini
 *.log
 
 # Environment variables
-.env
+.env"~*.twbr" 
+"*.twbr~" 
+"~*.twbr" 
+"*.twbr~" 
